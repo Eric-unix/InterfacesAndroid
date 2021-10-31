@@ -16,4 +16,8 @@
         <!-- Customize your theme here. -->
 
     </style>
+    <style name="AppTheme.EditTextStyle" parent="AppTheme">
+        <item name="android:textSize"> 16sp</item>
+        <item name="android:drawablePadding">12dp</item>
+    </style>
 </resources>
