@@ -3,33 +3,40 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:gravity="center"
-
-    android:background="@color/red"
+    android:background="@color/color_light"
     android:layout_height="match_parent">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/design_default_color_primary"
-        tools:background="@color/teal_200"
-        tools:text="Hola Plati"/>
-    <TextView
-        android:layout_width="match_parent"
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="160dp"
         android:layout_height="120dp"
-        android:background="@color/design_default_color_primary"
-        tools:textSize="20sp"
-        tools:background="@color/purple_200"
-        tools:text="Hola Plati"/>
-    <TextView
-        android:id="@+id/tvMainTitle"
+
+        android:src="@drawable/logo"/>
+    <EditText
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/vector_persone"
+        android:hint="@string/hint_Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_margin="12dp"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/vector_lock"
+        android:hint="@string/hint_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/design_default_color_primary"
-        tools:background="@color/purple_500"
-        tools:text="Hola Plati"/>
-    <EditText
-        android:background="@color/colorPrimaryDark"
-        android:hint="Escribe tu noombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:background="@color/colorPrimary"
+        android:text="login" />
+
 </LinearLayout>

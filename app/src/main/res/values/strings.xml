@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Platzi Music</string>
+    <string name="hint_usuario" />
+    <string name="hint_Usuario">Usuario</string>
+    <string name="hint_password">password</string>
+    <string name="button_login">Login</string>
 </resources>
